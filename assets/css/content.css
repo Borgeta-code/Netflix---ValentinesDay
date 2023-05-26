@@ -167,7 +167,7 @@ nav span {
   letter-spacing: 0.5px;
 }
 
-.containerTrends {
+.containerFilms {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -178,26 +178,26 @@ nav span {
   padding-bottom: 5px;
 }
 
-.containerTrends::-webkit-scrollbar {
+.containerFilms::-webkit-scrollbar {
   height: 5px;
 }
 
-.containerTrends::-webkit-scrollbar-track {
+.containerFilms::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.containerTrends::-webkit-scrollbar-thumb {
+.containerFilms::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 999px;
 }
 
-.trendFilms {
+.Films {
   width: 100%;
   display: flex;
   gap: 10px;
 }
 
-.trendFilms img {
+.Films img {
   height: 200px;
   object-fit: cover;
   border-radius: 3px;
@@ -206,7 +206,7 @@ nav span {
 /* Imagens Principal Mobile e Desktop */
 
 @media (min-width: 800px) {
-  .trendFilms img:last-child {
+  .Films img:last-child {
     padding-right: 25px;
   }
 
